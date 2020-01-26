@@ -7,24 +7,24 @@ use App\Http\Controllers\Controller;
 
 class ProfileController extends Controller
 {
-    pubric function add()
+    public function add()
 
     {
         return view('admin.profile.create');
     }
     
-    pubric function create add()
+    public function create ()
     {
-        return redirect('admin/profile/create'):
+        return redirect('admin/profile/create');
     }
     
     
-    pubric function edit()
+    public function edit()
     {
         return view('admin.profile.edit');
     }
     
-    pubric function update()
+    public function update()
     {
         return redirect('admin/profile/edit');
     }
