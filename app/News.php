@@ -18,3 +18,7 @@ class News extends Model
             return $this->hasMany('App\History');
         }
 }
+        //   public function histories()
+        //   {
+        //      return History::where("news_id",$this->id);
+        //  

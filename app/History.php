@@ -13,3 +13,7 @@ class History extends Model
         'edited_at' => 'required',
     );
 }
+    public function news()
+    {
+       News::find->news->
+    }
