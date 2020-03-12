@@ -11,3 +11,22 @@
 $font-family-sans-serif: "Raleway", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #CCFFFF;
+  color: #808080;
+}
+
+.navbar-laravel {
+  background-color: #FFFFCC;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-brand {
+  color: #FF9999 !important;
+}
+
+.nav-link {
+  color: #9999FF !important;
+}
